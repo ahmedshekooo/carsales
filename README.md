@@ -13,7 +13,7 @@ The goal of this project was to provide an executive summary and actionable insi
 | `sales_data_sample.csv` | The raw transactional dataset containing order details, quantity, price, customer information, and geographic data. | Root Directory |
 | `notebook.ipynb` | A Jupyter notebook containing the Python code (using Pandas and Matplotlib) for data cleaning, aggregation, and generating the core visualizations. | Root Directory |
 | `RETAIL SALES PERFORMANCE REVIEW (1).pdf` | The final executive presentation and performance review document, summarizing all key findings and recommendations. | Root Directory |
-| `charts/` | This folder contains all the visualizations generated during the analysis. | `charts/` Directory |
+| `charts/` | This folder contains all the generated charts with clean file names. | `charts/` Directory |
 
 -----
 
@@ -50,25 +50,25 @@ The following charts illustrate the key findings from the analysis, with source 
 
 This chart highlights the significant revenue spike in the fourth quarter, particularly in November (Month ID 11).
 
-![Monthly Sales Seasonality](charts/Screenshot 2025-11-17 215554.png)
+![Monthly Sales Seasonality](charts/month.png)
 
 ### Product Line Revenue Breakdown
 
 A clear view of product line contribution, where Classic Cars dominates the sales landscape.
 
-![Product Line Revenue Breakdown](charts/Screenshot 2025-11-17 222629.png)
+![Product Line Revenue Breakdown](charts/productline.png)
 
 ### Geographic Revenue Contribution (Top Countries)
 
 This visualization demonstrates the heavy reliance on the USA market for overall revenue.
 
-![Geographic Revenue Contribution](charts/Screenshot 2025-11-17 224957.png)
+![Geographic Revenue Contribution](charts/country.png)
 
 ### Deal Size Distribution
 
 A pie chart showing the high proportion of Medium and Small deal sizes, confirming a transaction-frequency-driven model.
 
-![Deal Size Distribution](charts/Screenshot 2025-11-17 232101.png)
+![Deal Size Distribution](charts/dealsize.png)
 
 -----
 
